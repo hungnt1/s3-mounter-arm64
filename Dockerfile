@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM arm64v8/alpine:3.13.9
 
 ENV MNT_POINT /var/s3fs
 
@@ -20,3 +20,5 @@ RUN mkdir -p "$MNT_POINT"
 
 COPY run.sh run.sh
 CMD ./run.sh
+
+
