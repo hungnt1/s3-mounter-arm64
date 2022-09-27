@@ -89,3 +89,4 @@ kubectl get ds | grep s3-provider
 kubectl exec -it s3-provider -- ls /var/s3fs
 ```
 
+
