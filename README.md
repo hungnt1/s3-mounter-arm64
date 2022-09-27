@@ -55,7 +55,7 @@ spec:
       hostNetwork: true
       containers:
       - name: s3fuse
-        image: hungnt99/s3-mounter
+        image: hungnt99/s3-mounter:0.1-arm64
         securityContext:
           privileged: true
         envFrom:
